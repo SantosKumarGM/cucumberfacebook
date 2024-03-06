@@ -1,0 +1,478 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Launch Facebook",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1790607000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch Facebook \"https://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.FB.facebookReuse.launch_facebook(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3174521700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to create new account",
+            "match": {
+              "location": "com.FB.facebookReuse.navigate_to_create_new_account()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-05T09:57:14.832Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4563197200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.FB.hookes.launching(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Create new Account",
+        "description": "",
+        "id": "create-profile-in-facebook;create-new-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1022800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.FB.hookes.closing(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 185945300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter the name \"Santos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Santos\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 313887000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the surname \"G.M\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"G.M\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_surname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115493600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the number \"999999999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"999999999\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214092400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the password \"j12345i\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"j12345i\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.support.ui.Select.selectByVisibleText(String)\" because \"com.FB.facebookReuse.s\" is null\r\n\tat com.FB.facebookReuse.enter_the_date(facebookReuse.java:80)\r\n\tat ✽.Enter the Date \"10\"(file:///C:/Users/gmsan/eclipse-workspace/java/facebookLocCod/./src/test/resources/faceL.feature:13)\r\n",
+              "duration": 240698600,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "Enter the Date \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_date(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Enter the Month \"Aug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aug\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_month(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Enter the Year \"1999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1999\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_year(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1004700,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click On Sigh Up",
+            "match": {
+              "location": "com.FB.facebookReuse.click_on_sigh_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Take screenshot \"Santos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Santos\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.FB.facebookReuse.take_screenshot(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch Facebook",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1698540600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch Facebook \"https://www.facebook.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.facebook.com/\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.FB.facebookReuse.launch_facebook(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca role\u003d\"button\" class\u003d\"_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy\" href\u003d\"#\" ajaxify\u003d\"/reg/spotlight/\" id\u003d\"u_0_0_cj\" data-testid\u003d\"open-registration-form-button\" rel\u003d\"async\"\u003e...\u003c/a\u003e is not clickable at point (734, 432). Other element would receive the click: \u003cdiv class\u003d\"_3ixn\"\u003e\u003c/div\u003e\n  (Session info: MicrosoftEdge\u003d122.0.2365.52)\nBuild info: version: \u00274.10.0\u0027, revision: \u0027c14d967899\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [4c5bfc6c1eff852f9b7c0ac705025d05, clickElement {id\u003df.ACD375AC5BA837D929D6A6296E54AC57.d.0EBA971C00A191925283955CB03E1717.e.14}]\nCapabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62307}, msedge: {msedgedriverVersion: 122.0.2365.66 (ab363614b8f0..., userDataDir: C:\\Users\\gmsan\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62307/devtoo..., se:cdpVersion: 122.0.2365.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nElement: [[EdgeDriver: MicrosoftEdge on windows (4c5bfc6c1eff852f9b7c0ac705025d05)] -\u003e xpath: //a[text()\u003d\u0027Create new account\u0027]]\nSession ID: 4c5bfc6c1eff852f9b7c0ac705025d05\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)\r\n\tat reusableC.codes.toclick(codes.java:86)\r\n\tat com.FB.facebookReuse.navigate_to_create_new_account(facebookReuse.java:36)\r\n\tat ✽.Navigate to create new account(file:///C:/Users/gmsan/eclipse-workspace/java/facebookLocCod/./src/test/resources/faceL.feature:6)\r\n",
+              "duration": 1083009700,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "Navigate to create new account",
+            "match": {
+              "location": "com.FB.facebookReuse.navigate_to_create_new_account()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-05T09:57:25.557Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2632703400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.FB.hookes.launching(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Create new Account",
+        "description": "",
+        "id": "create-profile-in-facebook;create-new-account;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.FB.hookes.closing(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Enter the name \"karthik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karthik\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Enter the surname \"R\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"R\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_surname(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Enter the number \"999999499\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"999999499\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_number(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Enter the password \"j12345i\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"j12345i\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Enter the Date \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_date(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Enter the Month \"Aug\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Aug\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_month(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Enter the Year \"1997\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1997\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.FB.facebookReuse.enter_the_year(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click On Sigh Up",
+            "match": {
+              "location": "com.FB.facebookReuse.click_on_sigh_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Take screenshot \"karthik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"karthik\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.FB.facebookReuse.take_screenshot(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@facebook"
+          }
+        ]
+      }
+    ],
+    "name": "Create profile in Facebook",
+    "description": "",
+    "id": "create-profile-in-facebook",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/faceL.feature",
+    "tags": [
+      {
+        "name": "@facebook",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
